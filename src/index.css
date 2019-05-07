@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.filter {
+  margin: 10px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.active-span {
+  text-decoration-line: underline;
+}
+.todo-item__text {
+  font-size: large;
+  font-weight: bold;
+}
+.todo-item__text.strike {
+  text-decoration-line: line-through;
+  color: lightgrey;
+}
